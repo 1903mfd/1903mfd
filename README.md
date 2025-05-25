@@ -1,8 +1,14 @@
 ```
-.-:::::'...    ::::::::::..    :::  .    :::.   :::.    :::.    :::::::-.  .,::::::  .        :   ::::::::::..   
-;;;'''' ;;     ;;;;;;;``;;;;   ;;; .;;,. ;;`;;  `;;;;,  `;;;     ;;,   `';,;;;;''''  ;;,.    ;;;  ;;;;;;;``;;;;  
-[[[,,==[['     [[[ [[[,/[[['   [[[[[/'  ,[[ '[[,  [[[[[. '[[     `[[     [[ [[cccc   [[[[, ,[[[[, [[[ [[[,/[[['  
-`$$$"``$$      $$$ $$$$$$c    _$$$$,   c$$$cc$$$c $$$ "Y$c$$      $$,    $$ $$""""   $$$$$$$$"$$$ $$$ $$$$$$c    
- 888   88    .d888 888b "88bo,"888"88o, 888   888,888    Y88      888_,o8P' 888oo,__ 888 Y88" 888o888 888b "88bo,
- "MM,   "YmmMMMM"" MMMM   "W"  MMM "MMP"YMM   ""` MMM     YM      MMMMP"`   """"YUMMMMMM  M'  "MMMMMM MMMM   "W"
+val me = engineer {
+    about {
+        name = "Furkan Demir"
+        company = "N11"
+        role = "Sr. DevOps"
+    }
+    interests("Security", "Virtualization", "Automation")
+    links {
+        social = "https://furkandemir.link"
+        email = "mailto:dev@furkandemir.net"
+    }
+}
 ```
